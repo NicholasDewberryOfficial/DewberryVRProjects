@@ -6,7 +6,9 @@ public class RotateVRPlane : MonoBehaviour
 {
     
     public GameObject rotateThis;
-    public bool shouldRotate;
+    public bool shouldRotateLeft;
+
+    public bool shouldRotateRight;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +18,23 @@ public class RotateVRPlane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(shouldRotate){
+        if(shouldRotateLeft){
             rotateThis.transform.Rotate(Vector3.up * 1f * Time.deltaTime);
+        }
+        if(shouldRotateRight){
+            rotateThis.transform.Rotate(Vector3.down * 1f * Time.deltaTime);
+
         }
         
     }
+
+    public void enableShouldRotateUP(){
+        shouldRotateLeft = true;
+    }
+
+    public void disableShouldRotateUP(){
+        shouldRotateLeft = false;
+    }
+
+
 }
