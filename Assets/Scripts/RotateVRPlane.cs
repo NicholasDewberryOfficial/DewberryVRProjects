@@ -9,6 +9,7 @@ public class RotateVRPlane : MonoBehaviour
     public bool shouldRotateLeft;
 
     public bool shouldRotateRight;
+    public GameObject UpDownWheel;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +21,11 @@ public class RotateVRPlane : MonoBehaviour
     {
         if(shouldRotateLeft){
             rotateThis.transform.Rotate(Vector3.up * 1f * Time.deltaTime);
+            UpDownWheel.transform.Rotate(Vector3.up * 1f * Time.deltaTime);
         }
         if(shouldRotateRight){
             rotateThis.transform.Rotate(Vector3.down * 1f * Time.deltaTime);
+            UpDownWheel.transform.Rotate(Vector3.down * 1f * Time.deltaTime);
 
         }
         

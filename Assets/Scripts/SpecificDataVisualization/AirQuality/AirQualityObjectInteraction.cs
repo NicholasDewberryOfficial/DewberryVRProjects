@@ -25,6 +25,9 @@ public class AirQualityObjectInteraction : MonoBehaviour
     
 
 
+    
+
+
 public void OnTriggerEnter(Collider other)
     {
         // ObjectDeets = collidingObject.GetComponent<AirQualityHolder>();

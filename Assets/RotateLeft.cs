@@ -12,6 +12,8 @@ public class RotateLeft : MonoBehaviour
    // public GameObject RotateVRPlane;
     public RotateVRPlane RotateVRPlane;
 
+    
+
     //public AirQualityObjectInteraction AirQualityObjectInteraction;
     // Start is called before the first frame update
     void Start()
