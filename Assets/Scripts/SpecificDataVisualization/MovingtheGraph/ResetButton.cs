@@ -2,20 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RotateLeft : MonoBehaviour
+public class ResetButton : MonoBehaviour
 {
-    //public bool RotateRight;
-
     public GameObject cube;
-    //public gameObject rotateThis;
 
-   // public GameObject RotateVRPlane;
     public RotateVRPlane RotateVRPlane;
 
-    
-
-    //public AirQualityObjectInteraction AirQualityObjectInteraction;
-    // Start is called before the first frame update
     void Start()
     {
         
@@ -40,15 +32,16 @@ public class RotateLeft : MonoBehaviour
 
 
        void StartRotating(Collider other){
-        Debug.Log("Enabled the graph moving right");
-        RotateVRPlane.shouldRotateRight = true;
+        //Debug.Log("Enabled the graph moving Up");
+        RotateVRPlane.resetthis = true;
         cube.GetComponent<Renderer>().material.color = Color.red;
 
     }
 
     void StopRotating(Collider other){
-        Debug.Log("Graph is going to stop moving");
-        RotateVRPlane.shouldRotateRight = false;
-        cube.GetComponent<Renderer>().material.color = Color.blue;
+       // Debug.Log("Graph is going to stop moving Up");
+        RotateVRPlane.resetthis = false;
+        cube.GetComponent<Renderer>().material.color = Color.red;
+        //Debug.Log("Current Graph coordinates are: " + RotateVRPlane.transform.position);
     }
 }
