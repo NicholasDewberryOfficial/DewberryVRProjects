@@ -230,8 +230,8 @@ public class AirQualityPlotter : MonoBehaviour
             BoxCollider bc = dataPoint.AddComponent<BoxCollider>();
             //add linerenderer
             //PART OF LINERENDERER STRAT - OUTDATED
-            LineRenderer lr = dataPoint.AddComponent<LineRenderer>();
-            lr.material.SetColor("_EmissionColor", new Color(x, y, z, 1.0f));
+            // LineRenderer lr = dataPoint.AddComponent<LineRenderer>();
+            // lr.material.SetColor("_EmissionColor", new Color(x, y, z, 1.0f));
             bc.isTrigger = true;
            AirQualityHolder Aholder = dataPoint.AddComponent<AirQualityHolder>();
            Aholder.Ozone = System.Convert.ToSingle(pointList[i][xColumnName]);

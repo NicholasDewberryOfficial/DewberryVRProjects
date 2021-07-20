@@ -1425,6 +1425,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cube: {fileID: 534257883}
   RotateVRPlane: {fileID: 1055810017}
+--- !u!21 &547691863
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites/Default
+  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _EnableExternalAlpha: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &627903183
 GameObject:
   m_ObjectHideFlags: 0
@@ -7460,14 +7495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dc77813fc80875448c1062f13bbd204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  KeepthisOneStatic: {fileID: 1055810015}
-  MoveThisOneAway: {fileID: 856784890}
-  StartDist: 0
-  StartKeepApartDistance: {x: 0, y: 0, z: 0}
-  CurrentKeepApartDistance: {x: 0, y: 0, z: 0}
-  changingDist: 0
-  doThis: 0
-  tpDist: 0
 --- !u!4 &856784892 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4506603279125416649, guid: a24a1ab7f3b926a47b003a6260ffd84d, type: 3}
@@ -8510,11 +8537,11 @@ PrefabInstance:
     - target: {fileID: 2348914, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1529782286}
+      objectReference: {fileID: 547691863}
     - target: {fileID: 3380982, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1191427025}
+      objectReference: {fileID: 1208429830}
     - target: {fileID: 11489174, guid: 4d293c8e162f3874b982baadd71153d2, type: 3}
       propertyPath: size
       value: 0
@@ -8909,7 +8936,7 @@ MonoBehaviour:
   ObjectDeets: {fileID: 0}
   rotateThis: {fileID: 1055810015}
   isRightHand: 0
---- !u!43 &1191427025
+--- !u!43 &1208429830
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -9815,41 +9842,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519415822}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!21 &1529782286
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites/Default
-  m_Shader: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - PixelSnap: 0
-    - _EnableExternalAlpha: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
 --- !u!224 &1596576712 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2777649672898204716, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
@@ -11136,6 +11128,10 @@ PrefabInstance:
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2777649672508638260, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2777649672508638267, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -11150,6 +11146,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2777649672653885630, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777649672662060241, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2777649672898204716, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
@@ -11264,12 +11264,20 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2777649673137832021, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2777649673215513963, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
       propertyPath: m_Interactable
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2777649673280620179, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777649673643679176, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2777649673671865446, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
@@ -11284,8 +11292,20 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2777649673766801224, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2777649673999511219, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
       propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777649674154459328, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777649674223301373, guid: 6f2f5f406ec077c4b916f5cd6b93537b, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11337,8 +11357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 000255a2b7d072d4583361c27a6aa99a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1981375344}
-  RotateVRPlane: {fileID: 1055810017}
 --- !u!54 &1981375347
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -11464,8 +11482,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20adaa3e8705f334fbb4a4b219e1e517, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cube: {fileID: 1990241588}
-  RotateVRPlane: {fileID: 1055810017}
 --- !u!54 &1990241591
 Rigidbody:
   m_ObjectHideFlags: 0
