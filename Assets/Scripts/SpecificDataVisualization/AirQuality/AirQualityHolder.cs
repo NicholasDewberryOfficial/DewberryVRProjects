@@ -42,6 +42,9 @@ public class AirQualityHolder : MonoBehaviour
          //element atone takes the closest object (because element at 0 takes itself)
       nearest = gameObjectsToConsider.OrderBy(t=> Vector3.Distance(transform.position, t.transform.position)).ElementAt(1);//Take(2);
 
+
+//NOTE: below parts were when i tried to make a surface mesh between every object in the graph, I moved away from this 
+//including it for completion's sake, please dont reuse it as it is not necessary
       //RAY STRAT: OUTDATED
         //  var direction
         // direction = (transform.position - nearest.transform.position ).normalized;

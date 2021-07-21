@@ -31,7 +31,8 @@ public class AlwaysStayAWay : MonoBehaviour
     {
         ///int i = 0;
 
-    if(doThis = true);
+    if(doThis == true);{
+
         for(int i = 0; i >1; i++);{
             StartDist = changingDist;
             doThis = false;
@@ -44,6 +45,7 @@ public class AlwaysStayAWay : MonoBehaviour
             recalculateStartDist();
         }
         
+    }
     }
 
     void NowMoveTheObjects(){

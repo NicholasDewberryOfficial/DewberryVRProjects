@@ -5,17 +5,19 @@ using UnityEngine;
 using TMPro;
 //using DialogueEditor;
 
-//NOTE: ONLY WORKS WITH IRIS DATASET
+//NOTE: ONLY WORKS WITH THIS SPECIFIC DATASET
 //TO MAKE THIS WORK WITH OTHER DATASETS, I NEED TO CHANGE THE DATA TYPES
 //ON SOME CSV FILES THE STRINGS COME FIRST
 //IN OTHERS INTS COME FIRST
+
+//UPDATE: 
 
 //to convert this into something I can use for my VR interactivity
 //be able to grab object and popup menu shows up where I can look at the specific attributes
 //To open a popup menu, there isn't nessecarially a forward way to do it in VR
 //most likely will be some strange stuff that i need to get working
 //assinging values from the csv file to a dictionary on every object in the scene
-//need to 
+//I made this work by using debuglog in the airqualityholder script to visualize the data for each object
 
 
 //limitations:
@@ -35,7 +37,7 @@ public class AirQualityPlotter : MonoBehaviour
     public string inputfile;
 
     // Indices for columns to be assigned
-    //instead of setting them public i set them PRIVATE
+    //doesnt really matter if public or private
     private int column1 = 0;
     private int column2 = 1;
     private int column3 = 2;
@@ -53,6 +55,7 @@ public class AirQualityPlotter : MonoBehaviour
 
 
     // Full column names from CSV (as Dictionary Keys)
+    //public i want to see these in editor
     public string xColumnName;
     public string yColumnName;
     public string zColumnName;
@@ -279,11 +282,10 @@ public class AirQualityPlotter : MonoBehaviour
 	}
 
     // creates particlePoints in the Particle System game object
-    // 
-    // 
+ 
+ 
     private void CreateParticles()
     {
-        //pointList = CSVReader.Read(inputfile);
 
         rowCount = pointList.Count;
        // Debug.Log("Row Count is " + rowCount);
@@ -302,7 +304,7 @@ public class AirQualityPlotter : MonoBehaviour
             // Set point location
 			particlePoints[i].position = new Vector3(x, y, z) * plotScale;
           
-            //GlowColor = 
+            
             // Set point color
             particlePoints[i].startColor = new Color(x, y, z, 1.0f);
             particlePoints[i].startSize = particleScale; 
