@@ -15,12 +15,12 @@ C:/Users/user/Documents/DewberryVRProjects
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65449
+57067
 Successfully changed project path to: C:/Users/user/Documents/DewberryVRProjects
 C:/Users/user/Documents/DewberryVRProjects
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 82.55 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.74 ms.
+Refreshing native plugins compatible for Editor in 84.55 ms, found 19 plugins.
+Preloading 1 native plugins for Editor in 0.93 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/user/Documents/DewberryVRProjects/Assets
@@ -39,23 +39,23 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001339 seconds.
+Registered in 0.001564 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.84 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 61.55 ms, found 19 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
+- Completed reload, in  1.035 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009322 seconds.
+Registered in 0.010063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 54.25 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 60.75 ms, found 19 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
@@ -63,413 +63,33 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.146 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.00 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2799 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.7 MB.
-System memory in use after: 130.7 MB.
+Refreshing native plugins compatible for Editor in 2.11 ms, found 19 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.3 MB.
+System memory in use after: 131.3 MB.
 
-Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 3279.
-Total: 2.575900 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.129000 ms MarkObjects: 2.082500 ms  DeleteObjects: 0.102000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/ProtienViewing.unity
-  artifactKey: Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProtienViewing.unity using Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e94f03c3c6088c4e597275db3ae436') in 0.014818 seconds
-  Import took 0.019262 seconds .
+Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 2.834200 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.171200 ms MarkObjects: 2.239100 ms  DeleteObjects: 0.111000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.452187 seconds.
-  path: Assets/Scenes/ProteinViewing.unity
-  artifactKey: Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProteinViewing.unity using Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f99678d114cf0a556b9e18eb3e2ee') in 0.005160 seconds
-  Import took 0.008861 seconds .
+  path: Assets/Scripts/RotateVRPlane.cs
+  artifactKey: Guid(39fd2847922c6fd4cae61950df1ca28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/RotateVRPlane.cs using Guid(39fd2847922c6fd4cae61950df1ca28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab3d0e77c03e750eccce7f8c31eb90e') in 0.020382 seconds
+  Import took 0.025041 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Scenes/ProteinViewing.unity
-  artifactKey: Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/ProteinViewing.unity using Guid(5cd92ef57c6d5e04fa428dd3e48bbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f99678d114cf0a556b9e18eb3e2ee') in 0.001683 seconds
-  Import took 0.005806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.507994 seconds.
-  path: Assets/Scenes/DataVizualisations/AirQualityDataVIz.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DataVizualisations/AirQualityDataVIz.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebec8dbfd7dfd0b44c85b7bc865f50') in 0.005927 seconds
-  Import took 0.010254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005789 seconds.
-  path: Assets/Scenes/DataVizualisations/AirQualityDataVIz.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DataVizualisations/AirQualityDataVIz.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebec8dbfd7dfd0b44c85b7bc865f50') in 0.001509 seconds
-  Import took 0.005260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.436180 seconds.
-  path: Assets/Scenes/DataVizualisations/AirQualityDataVIz 1.unity
-  artifactKey: Guid(0543dc5150cc05247a163621dd5ee6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DataVizualisations/AirQualityDataVIz 1.unity using Guid(0543dc5150cc05247a163621dd5ee6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f10320075d30b45780c37e184b32ef0') in 0.005034 seconds
-  Import took 0.009064 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003165 seconds.
-  path: Assets/Scenes/DataVizualisations/AirQualityDataVIz 1.unity
-  artifactKey: Guid(0543dc5150cc05247a163621dd5ee6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/DataVizualisations/AirQualityDataVIz 1.unity using Guid(0543dc5150cc05247a163621dd5ee6c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f10320075d30b45780c37e184b32ef0') in 0.001816 seconds
-  Import took 0.005592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.327283 seconds.
-  path: Assets/Scenes/LookingAtProtienMolecule.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtProtienMolecule.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1108aef7e381c3cfe8e9f57b5677c1') in 0.006084 seconds
-  Import took 0.010916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002351 seconds.
-  path: Assets/Scenes/LookingAtProtienMolecule.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtProtienMolecule.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb1108aef7e381c3cfe8e9f57b5677c1') in 0.001629 seconds
-  Import took 0.005382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.539203 seconds.
-  path: Assets/Scenes/LookingAtParaview.unity
-  artifactKey: Guid(30cbab77a87e8e049a575b7f6f303af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtParaview.unity using Guid(30cbab77a87e8e049a575b7f6f303af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58363f7ff481cfe1f8bbe385bb8b2d78') in 0.005149 seconds
-  Import took 0.009178 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009224 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.969 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.09 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2724 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.9 MB.
-System memory in use after: 126.1 MB.
-
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 3283.
-Total: 2.407300 ms (FindLiveObjects: 0.277100 ms CreateObjectMapping: 0.140900 ms MarkObjects: 1.961000 ms  DeleteObjects: 0.027600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009318 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2724 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.0 MB.
-System memory in use after: 126.2 MB.
-
-Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 3287.
-Total: 2.381000 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.115100 ms MarkObjects: 1.981000 ms  DeleteObjects: 0.028000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010228 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.71 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.12 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2734 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 126.6 MB.
-System memory in use after: 126.8 MB.
-
-Unloading 79 unused Assets to reduce memory usage. Loaded Objects now: 3299.
-Total: 2.290000 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.111400 ms MarkObjects: 1.833500 ms  DeleteObjects: 0.097600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1072.656105 seconds.
-  path: Assets/Scenes/LookingAtProtienMolecule.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtProtienMolecule.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b625aeaca83387bf7dc7d98084099ea1') in 0.050192 seconds
-  Import took 0.054870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.891488 seconds.
-  path: Assets/Scenes/LookingAtProtienMolecule 1.unity
-  artifactKey: Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtProtienMolecule 1.unity using Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df23cf50c1d3edacce432505f00a91c') in 0.005237 seconds
-  Import took 0.009236 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013344 seconds.
-  path: Assets/Scenes/LookingAtProtienMolecule 1.unity
-  artifactKey: Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtProtienMolecule 1.unity using Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df23cf50c1d3edacce432505f00a91c') in 0.001560 seconds
-  Import took 0.005176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.470769 seconds.
-  path: Assets/Scenes/LookingAtPointCloud.unity
-  artifactKey: Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtPointCloud.unity using Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0029b85dce31cf8605423327faca237b') in 0.005342 seconds
-  Import took 0.009113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.364722 seconds.
-  path: Assets/Scenes/LookingProtienMolecule.unity
-  artifactKey: Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingProtienMolecule.unity using Guid(d416958164eab6744adaf65a9c21a7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3eae77f89a2b6dc7cb33bbda6e5dc35') in 0.005227 seconds
-  Import took 0.008830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.917887 seconds.
-  path: Assets/Resources/example1.ply
-  artifactKey: Guid(6f6acc18d5b43fb4ea2cfe7f03df83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/example1.ply using Guid(6f6acc18d5b43fb4ea2cfe7f03df83ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16c183b84900adde212cea6b760af96') in 0.029046 seconds
-  Import took 0.033003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 824.296068 seconds.
-  path: Assets/Resources/Compound bow.ply
-  artifactKey: Guid(3adf38238f06fa647a195532471d8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Compound bow.ply using Guid(3adf38238f06fa647a195532471d8b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57e4212a03cdbd0fea07b6168eecbf45') in 0.082797 seconds
-  Import took 0.088794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 98.250444 seconds.
-  path: Assets/Resources/Motorcycle engine.ply
-  artifactKey: Guid(ae479010f43d370449a5b0654975647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Motorcycle engine.ply using Guid(ae479010f43d370449a5b0654975647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960b936eed3f2d92731176773164d85') in 0.024109 seconds
-  Import took 0.028169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025588 seconds.
-  path: Assets/Resources/Motorcycle engine.ply
-  artifactKey: Guid(ae479010f43d370449a5b0654975647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Motorcycle engine.ply using Guid(ae479010f43d370449a5b0654975647f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960b936eed3f2d92731176773164d85') in 0.017584 seconds
-  Import took 0.021829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.014193 seconds.
-  path: Assets/Pcx/Editor/Default Point.mat
-  artifactKey: Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pcx/Editor/Default Point.mat using Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29646d28c84818328260ae9a4fee88a') in 0.037741 seconds
-  Import took 0.041760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Pcx/Editor/Pcx.Editor.asmdef
-  artifactKey: Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pcx/Editor/Pcx.Editor.asmdef using Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfc232a8cfad33965dfd03caafc2020') in 0.006183 seconds
-  Import took 0.009873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Pcx/Editor/Default Point.mat
-  artifactKey: Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pcx/Editor/Default Point.mat using Guid(068f66693b9c4b64b8fe01cf78ce88f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29646d28c84818328260ae9a4fee88a') in 0.005369 seconds
-  Import took 0.008944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005698 seconds.
-  path: Assets/Pcx/Editor/Pcx.Editor.asmdef
-  artifactKey: Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pcx/Editor/Pcx.Editor.asmdef using Guid(8af269c4666d5214fbeaa6662ea7322f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfc232a8cfad33965dfd03caafc2020') in 0.001295 seconds
-  Import took 0.004880 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009488 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2734 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.1 MB.
-System memory in use after: 127.3 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3346.
-Total: 2.382400 ms (FindLiveObjects: 0.260600 ms CreateObjectMapping: 0.169900 ms MarkObjects: 1.857900 ms  DeleteObjects: 0.093100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 836.681760 seconds.
-  path: Assets/Scenes/LookingAtPointCloud.unity
-  artifactKey: Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtPointCloud.unity using Guid(7f4ed9a1b0ee2604ba48d020902c70a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068b953b8f4f935ad30b688e4f446346') in 0.022650 seconds
-  Import took 0.027578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.944578 seconds.
-  path: Assets/Scenes/LookingAtPointCloud 1.unity
-  artifactKey: Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtPointCloud 1.unity using Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7f41a3ed10dce6b31aef4905074eda') in 0.005280 seconds
-  Import took 0.008912 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003546 seconds.
-  path: Assets/Scenes/LookingAtPointCloud 1.unity
-  artifactKey: Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/LookingAtPointCloud 1.unity using Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d7f41a3ed10dce6b31aef4905074eda') in 0.001579 seconds
-  Import took 0.005154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.256109 seconds.
-  path: Assets/Scenes/WalkingTHroughParaview.unity
-  artifactKey: Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/WalkingTHroughParaview.unity using Guid(03dd438c55b321f408b7cde3baef7bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d6fb3c46a00c8ace31a3bab5e8e37e') in 0.005137 seconds
-  Import took 0.008858 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009459 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-Unloading 2733 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.0 MB.
-System memory in use after: 127.2 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3350.
-Total: 2.314500 ms (FindLiveObjects: 0.260000 ms CreateObjectMapping: 0.116600 ms MarkObjects: 1.849400 ms  DeleteObjects: 0.087100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 309.065496 seconds.
-  path: Assets/Resources/CowForVR.gltf
-  artifactKey: Guid(139b89de77a889b408a17ea19e9cff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/CowForVR.gltf using Guid(139b89de77a889b408a17ea19e9cff0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374874a984b1c0fe507a5e3b50c6cff0') in 0.086082 seconds
-  Import took 0.090990 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009379 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
-NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0004c] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\user\Documents\DewberryVRProjects\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
-
-(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 19 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 2733 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.1 MB.
-System memory in use after: 127.2 MB.
-
-Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3355.
-Total: 2.365600 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.115900 ms MarkObjects: 1.900400 ms  DeleteObjects: 0.088700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 318.930821 seconds.
-  path: Assets/Resources/VtuToGLTF.gltf
-  artifactKey: Guid(27add1dd466e6054990efbd73ac14c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VtuToGLTF.gltf using Guid(27add1dd466e6054990efbd73ac14c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54ac98a662d0136b2ec2a325ba93e5e') in 0.090481 seconds
-  Import took 0.095591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Resources/AirQuality.csv
-  artifactKey: Guid(458177500d271e146b99afdadb5f9bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/AirQuality.csv using Guid(458177500d271e146b99afdadb5f9bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0706e850c38e1b100ccbce9d0e78a409') in 0.007160 seconds
-  Import took 0.011088 seconds .
+  Time since last request: 0.000132 seconds.
+  path: Assets/Scripts/ControllerOpenUI.cs
+  artifactKey: Guid(3976b203db24f7440b88141e6efd37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ControllerOpenUI.cs using Guid(3976b203db24f7440b88141e6efd37e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d02157e963c4eeb866a32f06fa2298f') in 0.006371 seconds
+  Import took 0.010472 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
