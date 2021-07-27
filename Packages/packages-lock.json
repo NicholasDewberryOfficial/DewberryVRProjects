@@ -1,9 +1,9 @@
 {
   "dependencies": {
     "com.siccity.gltfutility": {
-      "version": "file:C:/Users/Nicc/Documents/GitHub/DewberryVRProjects/Assets/GLTFUtility-master",
+      "version": "file:GLTFUtility-master",
       "depth": 0,
-      "source": "local",
+      "source": "embedded",
       "dependencies": {
         "com.unity.nuget.newtonsoft-json": "2.0.0"
       }
