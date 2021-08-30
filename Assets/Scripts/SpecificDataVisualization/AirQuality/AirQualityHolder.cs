@@ -24,7 +24,7 @@ public class AirQualityHolder : MonoBehaviour
     public float rand3;
     public float rand4;
     public float rand5;
-    public GameObject nearest;
+    //public GameObject nearest;
     //*private Vector3 direction;
     //*is for when I tried to use Linecast to create a line between objects
     //as it currently stands, i get a thin red line rather than a full blanket 
@@ -34,13 +34,13 @@ public class AirQualityHolder : MonoBehaviour
     }
     // Start is called before the first frame update
     void Start() {        
-        GameObject[] gameObjectsToConsider = GameObject.FindGameObjectsWithTag("cube");
-       //var nearest = gameObjectsToConsider.OrderBy(t=>(t.position - referencePos).sqrMagnitude).Take(3)   //or use .FirstOrDefault();  if you need just one.ToArray();
+    //     GameObject[] gameObjectsToConsider = GameObject.FindGameObjectsWithTag("cube");
+    //    //var nearest = gameObjectsToConsider.OrderBy(t=>(t.position - referencePos).sqrMagnitude).Take(3)   //or use .FirstOrDefault();  if you need just one.ToArray();
 
-         //nearest = gameObjectsToConsider.OrderBy(t=> Vector3.Distance(transform.position, t.transform.position).FirstOrDefault());
+    //      //nearest = gameObjectsToConsider.OrderBy(t=> Vector3.Distance(transform.position, t.transform.position).FirstOrDefault());
 
-         //element atone takes the closest object (because element at 0 takes itself)
-      nearest = gameObjectsToConsider.OrderBy(t=> Vector3.Distance(transform.position, t.transform.position)).ElementAt(1);//Take(2);
+    //      //element atone takes the closest object (because element at 0 takes itself)
+    //   nearest = gameObjectsToConsider.OrderBy(t=> Vector3.Distance(transform.position, t.transform.position)).ElementAt(1);//Take(2);
 
 
 //NOTE: below parts were when i tried to make a surface mesh between every object in the graph, I moved away from this 
